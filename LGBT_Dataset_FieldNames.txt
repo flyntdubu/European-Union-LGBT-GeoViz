@@ -1,0 +1,19 @@
+Data: European Union lesbian, gay, bisexual and transgender survey (2012)
+Data source: Kaggle (Downloaded 11/10/2022)
+URL: https://www.kaggle.com/datasets/ruslankl/european-union-lgbt-survey-2012
+See also: https://fra.europa.eu/sites/default/files/eu-lgbt-survey-technical-report_en.pdf 
+
+Records: n = 3770
+
+ATTRIBUTES
+Country
+Subset
+ShortenedQuestion*
+ShortName*
+Answer
+Percentage
+
+Note that ShortenedQuestion and ShortName are both derived from the original questions---the original questions very quite long and so we shortened them once (ShortenedQuestion), and then again (ShortName) for possible easier viewing on a vis. 
+
+Also the answers (Yes, No, Don't know) for each subset for each country (e.g., Lesbian/Austria) may not always add up to 100% due to rounding. 
+

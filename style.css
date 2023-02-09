@@ -1,0 +1,114 @@
+body {
+  max-width: 1300px;
+  margin: auto;
+  background-color: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 900;
+  color: #394650;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  margin: 15px 0 10px 0;
+}
+
+#parameters {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 10px;
+  min-width: 1202px;
+}
+
+#svganchor {
+  background-color: #add8e6;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  border: solid;
+  border-width: thin;
+  width: max-content;
+  overflow: auto;
+}
+
+#donuts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#donutlegend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.curr {
+  fill: rgb(227, 100, 54) !important;
+}
+
+.yes {
+  fill: azure;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 0.5rem;
+  background: #ffffff;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.3rem;
+}
+
+.donutDiv {
+  text-align: center;
+}
+
+.no {
+  fill: rgb(145, 145, 145);
+  stroke: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#radioholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qselector {
+  display: inline-block;
+}
+
+#mapholder {
+  display: flex;
+  flex-direction: column;
+}
+
+.qselector > div {
+  margin-bottom: 1em;
+}
+
+.sele {
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+}
